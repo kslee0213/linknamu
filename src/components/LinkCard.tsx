@@ -19,7 +19,7 @@ export default function LinkCard({ id, title, url }: LinkItem) {
       target="_blank"
       rel="noopener noreferrer"
       onClick={handleClick}
-      className="flex h-14 w-full items-center justify-center rounded-2xl border border-zinc-300 bg-white px-4 text-center font-medium transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-900 dark:hover:bg-zinc-800"
+      className="flex h-16 w-full items-center justify-center rounded-3xl border border-white/60 bg-white/40 px-6 text-center font-medium text-ink shadow-[0_10px_30px_-14px_rgba(120,60,20,0.35)] backdrop-blur-md transition-colors duration-200 hover:bg-white/60 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-400"
     >
       {title}
     </a>
